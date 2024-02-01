@@ -30,7 +30,21 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 100vw;
-  height: 75vh;
-  margin-top: 5%;
+  height: 100vh;
   background-color: black;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .img-box img {
+    width: 50%;
+    height: 80%;
+  }
 }
